@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  magging: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdfe;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* 垂直滚动条宽度 */
+  heigth: 12px;
+}
