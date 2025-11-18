@@ -368,5 +368,4 @@ ref 和 reactive 都是 Vue 3 的响应式 API，主要区别在于：
 2. ref 需要通过 .value 访问，reactive 直接访问属性
 3. ref 在模板中自动解包，reactive 保持原样
 4. ref 可以重新赋值，reactive 不能整个替换
-5. 根据数据特性和使用场景选择合适的方法"
 

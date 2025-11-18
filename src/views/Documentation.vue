@@ -143,6 +143,7 @@ onMounted(initFiles)
           width: 240px;
           background-color: #fffdfe;
           height: 100vh;
+          overflow: auto;
         "
       >
         <div class="search-box">
@@ -188,7 +189,6 @@ onMounted(initFiles)
   background: #fffdfe;
   /* border-right: 1px solid #e1e4e8; */
   transition: transform 0.3s ease;
-  overflow: auto;
   padding: 10px;
   position: fixed;
   top: 0;
