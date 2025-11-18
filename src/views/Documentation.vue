@@ -178,7 +178,7 @@ onMounted(initFiles)
 .documentation-container {
   display: flex;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .sidebar {
@@ -187,8 +187,8 @@ onMounted(initFiles)
   height: 100vh;
   background: #fffdfe;
   /* border-right: 1px solid #e1e4e8; */
-  overflow-y: auto;
   transition: transform 0.3s ease;
+  overflow: auto;
   padding: 10px;
   position: fixed;
   top: 0;
